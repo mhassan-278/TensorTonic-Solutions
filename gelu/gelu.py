@@ -1,3 +1,6 @@
+import numpy as np
+import math
+
 def gelu(x):
 
     x = np.asarray(x, dtype= float)
