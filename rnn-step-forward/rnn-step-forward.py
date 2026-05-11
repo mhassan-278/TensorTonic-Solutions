@@ -1,8 +1,5 @@
 import numpy as np
 
-
-import numpy as np
-
 def rnn_step_forward(x_t, h_prev, Wx, Wh, b):
     
     x_t = np.asarray(x_t)
